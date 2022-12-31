@@ -1,0 +1,19 @@
+.item-effect:hover {
+  transform: scale(1.25);
+  transition: all 0.3s ease;
+  transition-delay: 700ms;
+  padding: 8px;
+  background: #242526;
+  z-index: 1000;
+}
+
+.item-effect:hover > .body {
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  clip-path: circle();
+  object-fit: cover;
+  object-position: center;
+}

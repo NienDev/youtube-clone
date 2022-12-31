@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./ResponsiveSearchBar.css";
-const ReponsiveSearchBar = () => {
+const ResponsiveSearchBar = () => {
   const [open, setOpen] = useState(false);
 
   const handleClicked = () => {
@@ -39,4 +39,4 @@ const ReponsiveSearchBar = () => {
   );
 };
 
-export default ReponsiveSearchBar;
+export default ResponsiveSearchBar;

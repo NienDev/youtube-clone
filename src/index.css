@@ -2,6 +2,15 @@
   margin: 0;
 }
 
+body {
+  /* height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd; */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
